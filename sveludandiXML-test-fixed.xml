@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <docInfo>
+        <title>XML is 20</title>
+        <subtitle>Tim Bray on XML's 20th birthday</subtitle><!-- sv: subtitle missing ending tag -->
+        <author id="Bray_Tim">Tim Bray</author>
+        <publication type="digital" target="https://www.xml.com/articles/2018/02/10/xml-20/">XML.com</publication>
+        <pubDate when="2018-02-10"></pubDate><!-- sv: pubDate missing end tag -->
+        <copyright>Article contents © 2018 Tim Bray</copyright><!-- sv: r was capitalized in ending tag -->
+    </docInfo>
+
+    <body><!--ebb: There is an error showing here because you have not wrapped the document in a root element. (-2 pts) -->
+        <quote source="Beatles">
+        “It was twenty years ago today/Sergeant Pepper taught the band to
+        play..."</quote>. Actually, it was <duration quantity="21.5" unit="year">21½ years ago
+            <!--ebb: Here you needed to fix the attribute syntax to add quotation marks around the attribute values like this:
+            <duration quantity="21.5" unit="year">    
+                (-2 pts) 
+            -->
+        today</duration> that <persName>Jon Bosak</persName> pulled together the original
+        <orgName>XML Working Group</orgName>. But yes, it was <event>on <date
+        when="1998-02-10"><!-- sv: missing equals sign after when -->February 10, 1998</date> that 
+        <codeSpec>XML 1.0</codeSpec> was
+        released to the world</event>. Which is worth talking about.
+        
+        <p>It turns out that if you follow the pointers back, the original <codeSpec>XML 1.0
+        Specification</codeSpec> is still out there &amp; <!--ebb: You did not fix the & problem here to provide its escape character: &amp; (-1 pt) --> <rs type="person" ref="Bray_Tim"></rs>my
+        fingers<!-- sv: missing end tag on rs --> were the last to touch that document. The history of how XML came to be
+        has been told at great length elsewhere, as have the details about <date
+        when="1998-02-10"></date>that February 10th, so there’s no need to revisit.
+        </p>
+        <event when="2018-02-10">Happy birthday!></event>    
+    </body>
+</xml>
+
+

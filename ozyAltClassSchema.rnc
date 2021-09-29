@@ -1,0 +1,11 @@
+start=root
+root= element Ozymandias {layer}
+layer=element layer{agent, mixed{(line | ellipsis | 
+layer)*}}
+line=element line {n, empty}
+ellipsis= element ellipsis {rend, empty}
+
+agent= attribute agent {"I" | "traveller" | "sculptor" |
+text}
+n= attribute n {xsd:integer}
+rend=attribute rend {". . ." | "***" | text}
