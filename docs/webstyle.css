@@ -8,6 +8,12 @@ ol {list-style-type: lower-alpha;
 padding: 5em;
     
 }
+ul {
+list-style-type: square;
+margin:0;
+padding: 0;
+color: blue;
+}
 
 /*  ebb: These are CSS comments! The following rules style the "picture frame" HTML elements 
  * and help control image size in a way that scales. We made the figure element be 30% of the width of the page.
