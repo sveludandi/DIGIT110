@@ -1,4 +1,3 @@
-
 body {
 background-color: BurlyWood;
 color: indigo;
@@ -7,12 +6,6 @@ font-family: arial, helvetica, sans-serif;
 ol {list-style-type: lower-alpha;
 padding: 5em;
     
-}
-ul {
-list-style-type: square;
-margin:0;
-padding: 0;
-color: blue;
 }
 
 /*  ebb: These are CSS comments! The following rules style the "picture frame" HTML elements 
@@ -23,6 +16,15 @@ color: blue;
 figure {background-color:lavender; margin:3em; width: 30%;} 
 figcaption {font-style:italic; font-size:.8em;}
 figure img {max-width:300px; width:100%;}
+
+figcaption{
+    font-style:italic;
+    font-size:.8em;
+}
+figure img {
+  width:550px;
+  height:400px;
+}
 /* Notice how the last rule is written: figure image {properties} . 
  * The rule above controls the <img> element that is contained inside <figure>. 
  * It does not control the size of the <img> that is not inside a <figure>. */
